@@ -48,7 +48,7 @@ main {
 footer {
     background-color: #003366;
     color: white;
-    text-align: center;
+   
     padding: 10px 0;
     width: 100%;
     bottom: 0;
@@ -130,5 +130,6 @@ footer {
         width: 100%;
     }
 }
+
 
 
