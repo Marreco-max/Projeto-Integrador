@@ -19,34 +19,77 @@
         </nav>
     </div>
 
-    <div class="aa1">
+<aside id="sidebar">
+    <div class="sidebar-content">
+        <button id="closeSidebar">&times;</button>
+        <img src="A1.png" alt="Logo da ICA">
+
+        <h2>Conteúdo</h2>
+        <ul>
+            <li><a href="#" data-target="inicio">Início</a></li>
+            <li><a href="#" data-target="cursos">Cursos</a></li>
+            <li><a href="#" data-target="professores">Professores</a></li>
+            <li><a href="#" data-target="biblioteca">Biblioteca</a></li>
+            <li><a href="#" data-target="config">Configurações</a></li>
+        </ul>
+    </div>
+</aside>    
+
+<div class="content" id="inicio">
+    <h1>Bem-vindo ao Academus ICA</h1>
+    <p>Este é o painel inicial com informações gerais.</p>
+
     <div id="calendar">
     </div>
+</div>
 
-     <div class="cont2">
-        <p>portal</p>
+<div class="content" id="cursos" style="display:none;">
+    <h1>Nossos Cursos</h1>
+    <p>Lista de cursos disponíveis...</p>
+</div>
+
+<div class="content" id="professores" style="display:none;">
+    <h1>Conheça Nossos Professores</h1>
+    
+    <div class="professor">
+        <img src="https://via.placeholder.com/150" alt="Foto do Professor João">
+        <h3>Prof. João Silva</h3>
+        <p><strong>Área:</strong> Matemática</p>
+        <p>Especialista em álgebra e geometria, com mais de 10 anos de experiência no ensino médio e superior.</p>
     </div>
 
-     <div class="cont3">
-        <p>portalaihdbaisbdiasdb</p>
-        <p>asdasdasdasdsa</p>
+    <div class="professor">
+        <img src="https://via.placeholder.com/150" alt="Foto da Professora Maria">
+        <h3>Profa. Maria Oliveira</h3>
+        <p><strong>Área:</strong> Língua Portuguesa</p>
+        <p>Mestra em Linguística Aplicada, atua na formação de professores e redação acadêmica.</p>
     </div>
+
+    <div class="professor">
+        <img src="https://via.placeholder.com/150" alt="Foto do Professor Carlos">
+        <h3>Prof. Carlos Mendes</h3>
+        <p><strong>Área:</strong> História</p>
+        <p>Focado em História Geral e do Brasil, com abordagem crítica e interdisciplinar.</p>
     </div>
-    <aside id="sidebar">
-        <div class="sidebar-content">
-            <button id="closeSidebar">&times;</button>
-            <h2>Conteúdo</h2>
-            <p> <img src="A1.png" alt="Foto da instituição" height="20%">
-            </p>
-            <ul>
-      <li><a href="#">Início</a></li>
-      <li><a href="#">Cursos</a></li>
-      <li><a href="#">Professores</a></li>
-      <li><a href="#">Biblioteca</a></li>
-      <li><a href="#">Configurações</a></li>
-    </ul>
-        </div>
-    </aside>
+
+    <div class="professor">
+        <img src="https://via.placeholder.com/150" alt="Foto da Professora Ana">
+        <h3>Profa. Ana Costa</h3>
+        <p><strong>Área:</strong> Biologia</p>
+        <p>Atua com foco em ecologia, biotecnologia e preparação para vestibulares e ENEM.</p>
+    </div>
+</div>
+
+<div class="content" id="biblioteca" style="display:none;">
+    <h1>Biblioteca</h1>
+    <p>Aqui você encontra livros e artigos disponíveis.</p>
+</div>
+
+<div class="content" id="config" style="display:none;">
+    <h1>Configurações</h1>
+    <p>Ajuste suas preferências aqui.</p>
+</div>
+    
 
     <footer>
         <div class="footer-col">
